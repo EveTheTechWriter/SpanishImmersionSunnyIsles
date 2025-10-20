@@ -1,16 +1,45 @@
-# React + Vite
+# Spanish Immersion Program
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a web application designed to promote a Spanish immersion program for students starting in Kindergarten. The application provides information about the program, its benefits, and a form for interested families to show their support.
 
-Currently, two official plugins are available:
+## Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+SpanishImmersionSunnyIsles
+├── src
+│   └── App.jsx
+├── public
+│   ├── index.html
+│   ├── css
+│   │   └── styles.css
+│   └── js
+│       └── app.js
+└── README.md
+```
 
-## React Compiler
+## Files Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **src/App.jsx**: Contains the original React component for the home page, including various sections such as the hero section, program details, benefits, and a form for user interest. It uses JSX syntax and React hooks.
 
-## Expanding the ESLint configuration
+- **public/index.html**: The main HTML file for the project. It includes the necessary structure for the webpage and links to the CSS and JavaScript files.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **public/css/styles.css**: Contains the CSS styles extracted from the original React component, ensuring that the styles are applied to the HTML elements.
+
+- **public/js/app.js**: Contains the JavaScript code that replicates the functionality of the original React component, such as smooth scrolling and fade-in effects for elements on the page.
+
+## Setup Instructions
+
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Open `public/index.html` in a web browser to view the application.
+4. Ensure that the CSS and JavaScript files are linked correctly in the HTML file.
+
+## Features
+
+- Smooth scrolling to the interest form.
+- Fade-in effects for various sections as the user scrolls down the page.
+- Responsive design for optimal viewing on different devices.
+
+## Contributing
+
+Contributions are welcome! If you would like to contribute to this project, please fork the repository and submit a pull request.
